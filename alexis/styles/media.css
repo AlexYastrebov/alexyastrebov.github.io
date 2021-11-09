@@ -1,0 +1,440 @@
+
+
+                                    /* lg 992-1199 */
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size:45px;
+        margin: 130px auto 40px auto;
+    }
+    .aboutUsinfo {
+        padding: 90px 10px 80px 10px;
+        transform: translate(-40px, 25px);
+    }
+    .aboutUsinfo .sectionTitle:before {
+        content: '01';
+        font-size: 200px;
+        left: -18px;
+    }
+    .workStepItem .content {
+        position: static;
+        width: 100%;
+    }
+    .aboutBennet {
+        padding: 115px 70px 80px 70px;
+    }
+    .aboutBennetSocial:before {
+        width: 26px;
+        height: 26px;
+        left: -50px;
+    }
+    .aboutBennet h3 {
+        margin: -30px 0 25px 0;
+        font-size: 20px;
+    }
+    .pricingTable {
+        padding-bottom: 100px;
+    }
+    .pricingTableItem h3 {
+        margin: 40px 105px 30px 115px;
+    }
+    .pricingTableItem img {
+        margin: 30px 125px 45px 100px;
+    }
+    .pricingTableItem .textprice {
+        padding: 55px 0 0 128px;
+    }
+    .pricingTableItem .textprice1 {
+        padding: 90px 0 0 125px;
+    }
+    .pricingTableItem .p02 {
+        margin: 0 70px 30px 45px;
+    }
+    .testimonials .testimonialsPhoto {
+        display: block;
+    }
+    .startYour {
+        font-size: 27px;
+    }
+    .button.button02.button022 {
+        margin: 145px auto 150px auto;
+    }
+    .ourblogimg2 .text02 {
+        top: 17px;
+        right: 150px;
+    }
+    .ourblogimg2 .text05 {
+        bottom: 5px;
+        right: 305px;
+    }
+    .ourblogimg2 .text01 {
+        padding: 15px 5px 5px 35px;
+    }
+    .ourblogimg2 .text03 {
+        font-size: 14px;
+    }
+    .ourblogimg2 .text04 {
+        font-size: 12px;
+    }
+    .ourblogimg2 {
+        margin-bottom: 14px;
+    }
+    .ourblogimg2 .text04 {
+        padding-bottom: 27px;
+    }
+    .ourblogimg3 .text001 {
+        padding: 15px 50px;
+        font-size: 17px;
+    }
+    .ourblogimg3 .text005 {
+        left: 50px;
+        top: 154px;
+    }
+}   
+
+
+
+                                    /* md 768-991 */
+
+@media (max-width: 991px) {
+    .main_menu {
+        display: none;
+    }
+    .ourFocusBlock {
+        margin-bottom: 20px;
+        height: auto;
+    }
+    h1 {
+        font-size: 52px;
+        margin: 85px auto 0px auto;
+    }
+    .ourFocus {
+        background-color: #f7f7f7;
+        margin-top: 75px;
+        padding-bottom: 75px;
+    }
+    .aboutUsinfo {
+        margin-left: 60px;
+    }
+    .aboutUsinfo:after {
+        content: '';
+        width: 100%;
+    }
+
+    .aboutUsimg {
+        width: 100%;
+        margin-left: 75px;
+    }
+   
+    .portFolioTitle .sectionTitle::before {
+        content: '03';
+        left: 380px;
+        bottom: -36px;
+        transform: translateX(-55%);
+    }
+   
+    .aboutBennet h3 {
+        margin: -123px 0 8px -55px;
+        font-size: 20px;
+    }
+    .aboutBennetText p {
+        font-size: 11px;
+        line-height: 18px;
+        left: 5px;
+        position: relative;
+        left: -55px;
+    }
+    .aboutBennetSocial::before {
+        left: -40px;
+    }
+    .aboutBennetSocial {
+        min-width: 41px;
+        padding: 13px 0 15px 24px;
+        transform: translateY(-40%);
+        width: 100%;
+    }
+    .results img {
+        margin-bottom: 50px;
+    }
+    .results .img1 {
+        margin: 55px 0 30px 0;
+    }
+    .aboutBennet {
+        padding: 115px 110px 0px 100px;
+    }
+    .pricingTableItem {
+        margin-bottom: 20px;
+    }
+    .pricingTableItem h3 {
+        margin: 40px 105px 30px 155px;
+    }
+    .pricingTableItem img {
+        margin: 30px 125px 45px 135px;
+    }
+    .pricingTableItem .textprice {
+        padding: 55px 0 0 164px;
+    }
+    .pricingTableItem .textprice1 {
+        padding: 90px 0 0 160px;
+    }
+    .pricingTableItem .p02 {
+        margin: 0 70px 30px 67px;
+    }
+    .pricingTable {
+        padding-bottom: 50px;
+    }
+    .testimonialsPhoto {
+        transform: translateX(0%);
+    }
+    .testimonialsDots {
+        transform: translateX(-150%);
+    }
+    .whySelectUs .whySelectUsText {
+        font-size: 15px;
+    }
+    .button.button02.button022 {
+        margin: 45px auto 70px auto;
+    }
+    
+    .whySelectUs .startYour {
+        margin: 70px auto 0 auto;
+    }
+    .ourblogimg1 img {
+        transform: translateX(13%);
+    }
+    .ourblogimg3 .text001 {
+        padding: 15px 35px;
+    }
+    .ourblogimg3 .text04 {
+        padding: 0 35px 25px 35px;
+    }
+    .ourblogimg3 .text005 {
+        left: 275px;
+        top: 103px;
+    }
+    .sectionFooterEnd {
+        padding-top: 75px;
+    }
+}
+
+
+
+
+
+
+                                    /* sm 576-767 */
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+        margin: 43px auto 30px auto;
+    }
+    .benefitsItem {
+        font-size: 15px;
+    }
+    .aboutUsinfo {
+        margin-left: 60px;
+        transform: translate(-60px, 20px);
+    }
+
+    .aboutUsinfo p {
+        padding-right: 100px;
+    }
+    .aboutUsimg {
+        width: 100%;
+        margin-left: 0;
+    }
+    .aboutUsinfo .sectionTitle:before {
+        content: '01';
+        font-size: 110px;
+        top: 20px;
+    }
+
+    .aboutUsinfo .sectionTitle {
+        text-align: center;
+    }
+    .portFolioTitle h2 {
+        margin-top: 0px;
+    }
+    
+    .ourFocusTitle {
+        margin-top: 30px;
+    }
+    .ourFocus {
+        padding-bottom: 70px;
+    }    
+    .sectionTitle::before {
+        font-size: 110px;
+        position: relative;
+        
+    }
+    .OurTeamTitle h2 {
+        margin-top: 10px;
+    }
+    .OurTeam {
+        margin-top: 75px;
+    }
+    .aboutBennet {
+        padding: 15px;
+        flex-direction: column;
+        background: none #fff;
+        margin-top: 20px;
+    }
+    .aboutBennetText p {
+        position: static;
+    }
+    .aboutBennet h3 {
+        margin: 0;
+    }
+    .aboutBennetSocial {
+        transform: none;
+        display: flex;
+        flex-wrap: wrap;
+        border-left: none;
+        border-top: 2px solid #efefef;
+    }
+    .aboutBennetSocial::before {
+        display: none;
+    }
+    .aboutBennetSocial a {
+        padding: 0 15px;
+    }
+    .portFolioTitle .sectionTitle::before {
+        bottom: -40px;
+        transform: translateX(-70%);
+    }
+    .portFolioText {
+        margin: 22px auto 42px auto;
+    }
+    .pricingTableItem {
+        margin-bottom: 20px;
+    }
+    .pricingTableItem h3 {
+        margin: 40px 105px 30px 220px;
+    }
+    .pricingTableItem img {
+        margin: 30px 125px 45px 200px;
+    }
+    .pricingTableItem .textprice {
+        padding: 55px 0 0 229px;
+    }
+    .pricingTableItem .textprice1 {
+        padding: 90px 0 0 226px;
+    }
+    .pricingTable {
+        padding-bottom: 10px;
+    }
+    .testimonialsDots {
+        transform: translateX(-100%);
+    }
+    .OurTeamText {
+        margin: 45px auto 44px auto;
+    }
+    .whySelectUs .startYour {
+        display: inline-block;
+        margin: 50px 0 20px 90px;
+    }
+    .ourblogimg1 img {
+        transform: translateX(0%);
+    }
+    .ourblogimg3 .text001 {
+        padding: 15px 35px;
+    }
+    .ourblogimg3 .text04 {
+        padding: 0 35px 25px 35px;
+    }
+    .ourblogimg3 .text005 {
+        left: 96px;
+        top: 150px;
+    }
+    .ourBlog {
+        padding-bottom: 75px;
+    }
+    .subscribe .textMail {
+        margin-top: 75px;
+    }
+    .ourBlog .sectionTitle:before {
+        margin-top: -50px;
+    }
+    .getInTouch .sectionTitle:before {
+        margin-top: -50px;
+    }
+    .textFuter1 {
+        padding: 20px 0 0 0;
+    }
+    .textFuter2 {
+        padding: 20px 0 0 0;
+    }
+    .textFuter3 {
+        padding: 20px 0 0 0;
+    }
+    .textFuter03 {
+        padding: 0 3px 20px 3px;
+    }
+
+    
+}
+/* 
+                                        col */
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 22px;
+        margin: 43px auto 30px auto;
+    }
+    header {
+        padding-bottom: 75px;
+    }
+    button {
+        width: 150px;
+        height: 40px;
+        margin: 30px auto 55px; 
+    }
+    .benefitsItem img {
+        margin-bottom: 25px;
+    }
+    .aboutUsinfo p {
+        padding-right: 150px;
+    }
+    .ourFocus {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .portFolioTitle .sectionTitle::before {
+        bottom: -40px;
+        transform: translateX(-130%);
+    }
+    .testimonials h3 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 25px 20px 20px;
+    }
+    .whySelectUs .selectUsTextBlock {
+        margin: 0 0 15px 25px;
+    }
+    .whySelectUs .selectUsImg {
+        padding: 15px 15px 10px 30px;
+    }
+    .ourblogimg3 .text04 {
+        display: none;
+    }
+    .ourblogimg2 .text04 {
+        display: none;
+    }
+    .ourblogimg2 .text02 {
+        display: none;
+    }
+    .ourBlog {
+        padding-bottom: 0;
+    }
+    .ourBlog .sectionTitle:before {
+        margin-top: -50px;
+    }
+    .enterMail {
+        height: 50px;
+        font-size: 14px;
+    }
+    .form-control {
+        padding-left: 0;
+    }
+}   

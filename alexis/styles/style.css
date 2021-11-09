@@ -1,0 +1,1196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: #3f4049;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+.top_line {
+    background-color: #fff;
+}
+.main_menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+.main_menu a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #272727;
+    display: block;
+    padding: 10px 9px;
+}
+h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    max-width: 820px;
+    margin: 175px auto 55px auto;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    background-color: #fc5f45;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    display: block;
+    margin: 60px auto 80px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.benefitsItem {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.benefitsItem img {
+    margin-bottom: 33px;
+}
+.benefitsItem1 {
+    color: #3c8970;
+}
+.benefitsItem3 {
+    color: #7d5fa7;
+}
+.benefitsItem2 {
+    color:#feb960;
+}
+.aboutUs {
+    margin-top: 148px;
+    position: relative;
+}
+.aboutUsimg {
+    width: 100%;
+    max-width: 555px;
+}
+
+.aboutUsinfo {
+    width: 100%;
+    max-width: 665px;
+    min-height: 548px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding: 90px 82px 102px 82px;
+    transform: translate(-40px, 50px);
+}
+.aboutUsinfo:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-image: url(/dev/images/Lines.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sectionTitle:before {
+    font-size: 274px;
+    color: rgba(224, 224, 224, 0.3);
+    font-weight: 900;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    position: absolute;
+}
+.aboutUsinfo .sectionTitle {
+    text-align: left;
+}
+.aboutUsinfo .sectionTitle:before {
+    content: '01';
+    top: -112px;
+    left: -85px;
+}
+.aboutUsinfo {
+    font-size: 50px;
+    font-family: 'Libre Baskerville', sans-serif;
+    margin-bottom: 46px;
+}
+.aboutUsinfo p {
+    margin-bottom: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #616161;
+}
+.ourFocus {
+    background-color: #f7f7f7;
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+
+.ourFocusTitle {
+    margin-top: 160px;
+}
+
+.sectionTitle {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.ourFocusTitle .sectionTitle:before {
+    content: '02';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+}
+
+.ourFocusText {
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+
+.ourFocusBlock {
+    background-color: rgb(255, 255, 255);
+    padding: 64px 32px;
+    text-align: center;
+    border-bottom: 3px solid #fc5f45;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+.ourFocusBlock img {
+    margin-bottom: 28px;
+}
+
+.ourFocusBlock h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
+}
+
+.ourFocusBlock.webdesign {
+    border-bottom: 3px solid #fc5f45;
+}
+
+.ourFocusBlock.uxdesign {
+    border-bottom: 3px solid #38c695;
+    padding: 60px 32px 59px 32px;
+
+}
+.ourFocusBlock.photogrpahy {
+    border-bottom: 3px solid #b27cf5;
+    padding: 62px 32px 63px 32px;
+}
+
+.ourFocusBlock.appdevelopment {
+    border-bottom: 3px solid #feb960;
+}
+
+.exploreOurAwesomeness {
+    text-align: center;
+    background-image: url(/dev/images/exploreOurAwesomeness.jpg);
+    background-position: center;
+}
+.exploreOurAwesomeness h3 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    color: white;
+}
+.exploreOurAwesomeness p {
+    margin-top: 44px;
+    margin-bottom: 150px;
+    color: white;
+}
+/* спросить про маджины у всех элементов маджины схлопываются
+доделать эффекты фона картинки */
+
+.portFolio {
+    text-align: center;
+}
+
+.portFolioTitle h2 {
+    margin-top: 150px;
+}
+.portFolioTitle {
+    position: relative;
+}
+.portFolioTitle .sectionTitle:before {
+    content: '03';
+    left: 380px;
+    bottom: -35px;
+}
+
+.portFolioText {
+    margin: 45px auto 85px auto;
+}
+
+.projectItem {
+    margin-bottom: 25px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+/* разобраться с ховерами */
+
+.projectItem img {
+    width: 100%;
+}
+.projectItem:hover .projectItemInfo, .projectItem:hover .projectItemInfo1 {
+    opacity: 1;
+}
+.projectItemInfo {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.projectItemInfo1 {
+    position: absolute;
+    width: 25%;
+    bottom: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.4s;
+}
+.projectItem:hover .lineProject, .projectItem:hover .lineProject1, .projectItem:hover .lineProject2, .projectItem:hover .lineProject3, .projectItem:hover .lineProject4 {
+    opacity: 1;
+}
+.lineProject {
+    width: 25%;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.lineProject1 {
+    left: 0%;
+    background-color: rgb(194, 22, 22);
+}
+.lineProject2 {
+    left: 25%;
+    background-color: rgb(33, 219, 8);
+}
+.lineProject3 {
+    left: 50%;
+    background-color: rgb(162, 8, 189);
+}
+.lineProject4 {
+    left: 75%;
+    background-color: rgb(219, 187, 3);
+}
+
+.OurTeamTitle {
+    position: relative;
+}
+.OurTeamTitle h2 {
+    margin-top: 160px;
+}
+.OurTeamText {
+    margin: 45px auto 85px auto;
+    text-align: center;
+}
+.OurTeamTitle .sectionTitle:before {
+    content: '04';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+}
+.OurTeam {
+    background-color: #f7f7f7;
+    margin-top: 150px;
+}
+.worker {
+	position: relative;    
+	line-height: 0;
+    background-color: white;
+    padding: 3px 3px 0 3px;
+}
+.worker img {
+    width: 100%;
+}
+.workerImgWrapper {
+    position: relative;
+}
+.workerImgWrapper:after {
+	content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+    background: transparent;
+	opacity: 0.5;
+}
+.worker h3 {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fc5f45;
+    text-align: center;
+}
+
+.worker p {
+    margin-top: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #959595;
+    text-align: center;
+}
+.Michael {
+    border-bottom: 3px solid #d7aca5;
+}
+.Michael .workerImgWrapper:after {
+    background-image: linear-gradient(#cbcbcb, #d7aca5);
+}
+.David {
+    border-bottom: 3px solid #a1cabb;  
+}
+.David:after {
+	background-image: linear-gradient(#cbcbcb, #a1cabb);
+}
+.Anna {
+    border-bottom: 3px solid#843cdd;
+}
+.Anna:after {
+	background-image: linear-gradient(#cbcbcb, #843cdd);
+}
+.Jason {
+    border-bottom: 3px solid #e69123;
+}
+.Jason:after {
+	background-image: linear-gradient(#cbcbcb, #e69123);
+}
+
+.aboutBennet {
+    background: url(/dev/images/Backgroundbennet.png) no-repeat top center;
+    background-size: 100%;
+    padding: 115px 110px 80px 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.aboutBennetText {
+    max-width: 650px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutBennet h3 {
+    margin: 0 0 25px 0;
+    font-size: 20px;
+    color: #272727;
+}
+
+.aboutBennetText p {
+    font-size: 15px;
+    color: #616161;
+    line-height: 27px;
+}
+
+.aboutBennet .social {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin: 100px 30px 130px 0px;
+}
+.aboutBennet .line {
+    width: 100%;
+   height: 100%;
+   display: flex;
+   margin-top: 70px;
+}
+
+.aboutBennetSocial {
+    min-width: 95px;
+    border-left: 2px solid #efefef;
+    padding: 13px 0 15px 24px;
+    position: relative;
+}
+
+.aboutBennetSocial:before {
+    content: '';
+    background-image: url(../images/social.jpg);
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -72px;
+    transform: translateY(-50%)
+}
+
+.aboutBennetSocial a {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #616161;
+    padding: 8px 0;
+}
+
+.aboutBennetSocial a img {
+    margin-right: 6px;
+}
+
+
+.results {
+    background: url('../images/Layer\ 24.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.results .img1 {
+    margin: 145px 0 30px 0;
+}
+.results img {
+    margin-bottom: 130px;
+}
+.results h3 {
+    color: white;
+}
+.results p {
+    color: white;
+}
+
+.workSteps .sectionTitle:before {
+    content: '05'
+}
+
+.workStepItem {
+    min-width: 35px;
+    /* min-height: 35px; */
+    border-left: 2px solid #efefef;
+    /* padding: 13px 0 15px 24px; */
+    position: relative;   
+}
+
+.workSteps {
+    padding: 0 0 150px 0;
+}
+
+.workStepItem img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.workStepItem .content {
+    width: 460px;
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: -50px;
+    display: block;
+}
+.workStepItem h3 {
+    display: block;
+    margin: -20px 0 35px 110px;
+}
+
+.workStepItem p {
+    margin: 0 25px 25px 110px;
+}
+
+.workStepItem .p01 {
+    font-size: 50px;
+    color: rgb(120, 134, 134);
+    margin: 40px 25px 0 35px;
+    position: relative;
+}
+
+.workStepItem .p01 span {
+    position: relative;
+    z-index: 1;
+}
+
+.workStepItem .p01:after {
+    content: '';
+    display: block;
+    transform: rotate(-45deg);
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    left: -25px;
+    top: 40px;
+    background-color: #ccc;
+}
+
+.workStepItem .content.content01 {
+    border-bottom: 4px solid #fc5f45;
+}
+
+.workStepItem .content.content02 {
+    border-bottom: 4px solid #38c695;
+}
+
+.workStepItem .content.content03 {
+    border-bottom: 4px solid #b27cf5;
+}
+
+.workStepItem .content.content04 {
+    border-bottom: 4px solid #feb960;
+    padding: 0 0 100px 0;
+}
+
+.pricingTable {
+    background-color: #f7f7f7;
+    padding-bottom: 150px;
+}
+
+.price-icon-wrapper.green {
+    border-color: green;
+}
+
+.price-icon-wrapper.green .price-icon {
+    background-color: green;
+}
+
+.price-icon-wrapper.red {
+    border-color: red;
+}
+
+.price-icon-wrapper.red .price-icon {
+    background-color: red;
+}
+
+.price-icon-wrapper {
+    padding: 3px;
+    width: 114px;
+    height: 114px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+
+.price-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.price-num {
+    font-weight: 700;
+}
+
+.textprice {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 60px 0 0 165px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+}
+
+.textprice1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 90px 0 0 160px;
+    color: #fff;
+    position: absolute;
+}
+
+.pricingTableItem {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top: 3px solid #38c695;
+    position: relative;
+}
+
+.pricingTableItem.pricingTableItem1 {
+    border-top: 3px solid #fc5f45;
+}
+
+.pricingTableItem.pricingTableItem2 {
+    border-top: 3px solid #b27cf5;
+}
+
+.pricingTable h3 {
+    margin: 40px 145px 30px 145px;
+}
+
+.pricingTable img {
+    margin: 30px 125px 45px 135px;
+}
+
+.pricingTable .p02 {
+    margin: 0 70px 30px 100px;
+    text-align: center;
+}
+
+.pricingTable li {
+    margin-top: 20px;
+}
+
+.button {
+    
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.button01 {
+    border: 2px solid #38c695;
+    color: #38c695;
+}
+
+.button02 {
+    background-color: #fc5f45;
+    color: #fff;
+}
+
+.button03 {
+    background-color: #fff;
+    border: 2px solid #b27cf5;
+    color: #b27cf5;
+}
+
+.testimonials .sectionTitle:before {
+    content: '07';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+}
+.testimonials {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 150px;
+}
+/* вместо цвета фона картинка? */
+
+.testimonials .testimonialsPhoto {
+    width: 100%;
+    position: relative;
+    right: -15px;
+}
+/* опять спросить про класс в классе */
+/* шрифты в фотошопе пиксели */
+
+.testimonials h2 {
+    color: #ffff;
+}
+
+.testimonials h3 {
+    font-size: 20px;
+    color: #616161;
+    line-height: 30px;
+    padding: 0 70px 40px 55px;
+}
+
+.testimonials p {
+    color: #ffff;
+}
+
+.testimonialsText {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding: 40px 45px 40px 40px;
+}
+
+.testimonials .melina {
+    font-size: 40px;
+    font-family: 'Sacramento';
+    color: rgb(3, 3, 3);
+    padding: 0 0 0 55px;
+    margin: 0;
+}
+
+.testimonials .melinaAlbrecht {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(3, 3, 3);
+    padding: 0 0 0 55px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.testimonials .melinaFounder {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(192, 31, 31);
+    padding: 0 0 0 55px;
+    margin: 0;
+}
+.testimonials .background {
+    background-color: rgba(95, 90, 90, 0.52);
+}
+
+.testimonialsDots {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    display: flex;
+}
+
+.testimonialsDots li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsDots li.active {
+    border: 1px solid red;
+}
+
+.testimonialsDots li.active span {
+    background-color: red;
+}
+
+.testimonialsDots li span {
+    width: 6px;
+    height: 6px;
+    display: block;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+/* су%ка.... */
+
+.imgkrug {
+    width: 4%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -500px;
+    bottom: 120px;
+}
+
+.imgkrug .imgkrug1 {
+    padding: 5px 5px 5px 5px;
+}
+.imgkrug .imgkrug2 {
+    padding: 5px 5px 5px 5px;
+}
+.imgkrug .imgkrug3 {
+    padding: 5px 5px 5px 5px;
+}
+.imgkrug .imgkrug4 {
+    padding: 5px 5px 5px 5px;
+}
+.imgkrug .imgkrug5 {
+    padding: 5px 5px 5px 5px;
+}
+.imgkrug .imgkrug6 {
+    padding: 5px 0 5px 5px;
+}
+
+.whySelectUs .sectionTitle:before {
+    content: '08';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+}
+/* как сократить еще клас выше? */
+
+.whySelectUs .selectUsImg {
+    display: inline-block;
+    padding: 15px 15px 30px 30px;
+}
+
+.whySelectUs .whySelectUsText {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.whySelectUs .selectUsTextBlock {
+    margin: 0 40px 75px 30px;
+    font-size: 15px;
+}
+
+.whySelectUs .startYour {
+    margin: 155px auto 150px auto;
+}
+
+.button.button02.button022 {
+    margin: 155px auto 150px auto;
+}
+
+.ourBlog {
+    background-color: #f7f7f7;
+    padding-bottom: 150px;
+}
+
+.ourBlog .sectionTitle:before {
+    content: '09';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+    margin-top: 170px;
+}
+
+.ourblogimg1 img {
+    max-width: 100%;
+}
+
+
+
+.ourblogimg2 {
+    background: #ffff;
+    width: 100%;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+/* в процентах нормально? */
+
+.ourblogimg2.border1 {
+    border-bottom: 3px solid #38c695;
+}
+.ourblogimg2.border2 {
+    border-bottom: 3px solid #b27cf5;
+}
+.ourblogimg2.border3 {
+    border-bottom: 3px solid #feb960;
+}
+
+.ourblogimg3 {
+    background: #ffff;
+    width: 100%;
+
+    position: relative;
+    border-bottom: 3px solid #fc5f45;
+}
+
+.ourblogimg3 .text001 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 35px 55px 35px 50px;
+    font-weight: 600;
+}
+
+.ourblogimg3 .text04 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #616161;
+    padding: 0 50px 35px 50px;
+}
+
+.ourblogimg3 .text005 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    left: 270px;
+    top: 178px;
+    
+}
+
+.ourblogimg2 .text01 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #38c695;
+    padding: 32px 20px 5px 35px;
+    display: flex;
+}
+
+.ourblogimg2 .text02 {
+    display: flex;
+    position: absolute;
+    top: 34px;
+    right: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+.text01.text01-1 {
+    color: #b27cf5;
+}
+
+.text01.text01-2 {
+    color: #feb960;
+}
+
+.ourblogimg2 .text03 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px 95px 6px 35px;
+}
+
+.ourblogimg2 .text04 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #616161;
+    padding: 0 50px 18px 35px;
+}
+
+.ourblogimg2 .text05 {
+    position: absolute;
+    bottom: 18px;
+    right: 175px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+}
+
+.ourblogimg2 .text05.textcolor {
+    color: #b27cf5;
+}
+
+.ourblogimg2 .text05.textcolor1 {
+    color: #feb960;
+}
+
+.ourblogimg2 .text001 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px 95px 30px 35px;
+}
+
+.ourblogimg2 .border3 {
+    border-radius: 3px solid ;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.form-control {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #b8b3b3;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 25px 0 0 25px;
+    padding-left: 28px;
+}
+
+.form-control::placeholder {
+    color: #616161;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 5px 5px 5px;
+}
+
+.enterMail {
+    width: 180px;
+    display: block;
+    border-radius: 0 25px 25px 0;
+    margin: 0;
+}
+
+.subscribe .textMail {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 150px auto 50px auto;
+    left: 500px;
+    text-align: center;
+}
+/* почему не работает авто? */
+
+.getInTouch .sectionTitle:before {
+    content: '10';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+    margin-top: 170px;
+}
+.btn.btn-primary1 {
+    width: 190px;
+    height: 50px;
+    margin: 200px auto 0 auto;
+    display: inline-block;
+    border-radius: 25px 25px 25px 25px;
+    position: absolute;
+    left: 500px;
+}
+
+.getInTouch-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.getInTouch-form input, .getInTouch-form textarea {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.getInTouch-form textarea {
+    width: 100%;
+    height: 300px;
+}
+
+.getInTouch-form .enterMail{
+    border-radius: 25px;
+    margin: 20px auto;
+}
+
+.button-wrapper {
+    width: 100%;
+}
+
+/* .form-control {
+    border-radius: 0;
+    background-color: rgba(95, 90, 90, 0.52);
+    justify-content: center;
+    text-align: center;
+} */
+
+.form-control1 {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 250px;
+}
+
+.formRelative {
+    position: relative;
+}
+
+.formRelative .form-control2 {
+    text-align: center;
+    width: 110%;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+}
+
+.container futer {
+    background-color: rgb(0, 0, 0);
+}
+
+.getInTouch {
+    background-color: rgba(95, 90, 90, 0.52);
+}
+.textFuter1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #38c695;
+    padding: 60px 40px 35px 0;
+    display: block;
+    text-align: start;
+}
+.textFuter01 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fef4f2;
+    display: block;
+    text-align: start;
+    padding-right: 50px;
+}
+
+.sectionFooterEnd {
+    background-color: rgba(95, 90, 90, 0.52);
+    padding-top: 150px;
+}
+
+.textFuter {
+    padding: 105px auto 95px auto;
+    display: block;
+    text-align: center;
+}
+
+.textFuter2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b27cf5;
+    padding: 60px 40px 35px 0;
+    display: block;
+    text-align: start;
+}
+
+
+.textFuter3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #feb960;
+    padding: 45px 40px 35px 0;
+    display: block;
+    text-align: start;
+}
+
+.textFuter03 {
+    display: inline-block;
+    justify-content: center;
+    text-align: start;
+    padding: 0 3px 0 3px;
+}
+
+.footerEnd {
+    background-color: #3f4049;
+    width: 100%;
+    display: flex;
+}
+
+.workStepItemCount:nth-of-type(2n+1) .workStepItem .content {
+    left: -290px;
+}
+
+.workStepItemCount:nth-of-type(2n) .workStepItem .content {
+    right: -290px;
+}
+
