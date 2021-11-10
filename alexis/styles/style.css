@@ -100,7 +100,7 @@ button {
     display: block;
     width: 100%;
     height: 3px;
-    background-image: url(/dev/images/Lines.jpg);
+    background-image: url(./images/Lines.jpg);
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -205,7 +205,7 @@ button {
 
 .exploreOurAwesomeness {
     text-align: center;
-    background-image: url(/dev/images/exploreOurAwesomeness.jpg);
+    background-image: url(../images/exploreOurAwesomeness.jpg);
     background-position: center;
 }
 .exploreOurAwesomeness h3 {
@@ -390,7 +390,7 @@ button {
 }
 
 .aboutBennet {
-    background: url(/dev/images/Backgroundbennet.png) no-repeat top center;
+    background: url(../images/Backgroundbennet.png) no-repeat top center;
     background-size: 100%;
     padding: 115px 110px 80px 100px;
     margin-bottom: 150px;
@@ -464,7 +464,7 @@ button {
 
 
 .results {
-    background: url('../images/Layer\ 24.jpg');
+    background: url(/images/Layer\ 24.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -570,19 +570,25 @@ button {
 }
 
 .price-icon-wrapper.green {
-    border-color: green;
+    border-color: #38c695;
 }
 
 .price-icon-wrapper.green .price-icon {
-    background-color: green;
+    background-color: #38c695;
 }
 
 .price-icon-wrapper.red {
-    border-color: red;
+    border-color: #fc5f45;
 }
 
 .price-icon-wrapper.red .price-icon {
-    background-color: red;
+    background-color: #fc5f45;
+}
+.price-icon-wrapper.purple {
+    border-color: #b27cf5;
+}
+.price-icon-wrapper.purple .price-icon {
+    background-color: #b27cf5;
 }
 
 .price-icon-wrapper {
