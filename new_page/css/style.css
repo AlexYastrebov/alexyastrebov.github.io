@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+.menu_button {
+    width: 45px;
+}
+.menu_button span {
+    background-color: #fff;
+    width: 100%;
+    height: 7px;
+    border-radius: 10%;
+    margin: 4px 0 8px 0;
+    display: block;
+}
+.head_line {
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 104px;
+}
+h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 183px 0 12px 0;
+    color: #000;
+}
+.page_title {
+    background-image: url(/image/4593141-svetlyy-fon-tekstury-full-hd\ 1.png);
+    width: 100%;
+    min-height: 634px;
+}
+.page_title p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 290px 0 290px;
+}
+.first_button button {
+    display: block;
+    width: 230px;
+    height: 50px;
+    margin: 44px auto 160px auto;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.54));
+    border-radius: 50px;
+}
+.second_button button {
+    color: black;
+    background: none;
+    border: none;
+    margin-bottom: 63px;
+    height: 25px;  
+}
+.second_button span {
+    margin-left: 9px;
+}
+.text_services h3 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding: 63px 0 63px 0;
+    display: block;
+    text-align: center;
+    background: #E9E9E9;
+}
+.service {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    background: #E9E9E9;
+}
+.service img {
+    max-width: 369px;
+}
+.text_sub {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin: 18px 0;
+}
+.text_sub1 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #000000;
+    margin: 0 100px 61px 100px;
+}
+.first_services, .second_services, .third_services {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 369px;
+    margin-bottom: 50px;
+}
+.first_services img, .second_services img, .third_services img {
+    display: block;
+    margin: 0 auto;
+}
+.button_service {
+    width: 160px;
+    height: 50px;
+    left: 163px;
+    top: 1332px;
+    background: #90E6D1;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #000;
+    display: block;
+    margin: 20px auto 17px auto;
+}
