@@ -36,6 +36,9 @@ header {
     display: block;
     padding: 10px 9px;
 }
+.hamburger {
+    display: none;
+}
 h1 {
     color: #fff;
     font-size: 60px;
@@ -233,7 +236,8 @@ button {
 }
 .portFolioTitle .sectionTitle:before {
     content: '03';
-    left: 380px;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -35px;
 }
 
@@ -929,13 +933,9 @@ button {
 }
 
 .ourblogimg3 .text005 {
-    position: absolute;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 13px;
-    left: 270px;
-    top: 178px;
-    
+    font-size: 13px;  
 }
 
 .ourblogimg2 .text01 {
@@ -1081,6 +1081,11 @@ button {
     margin-bottom: 10px;
 }
 
+.getInTouch-form input::placeholder {
+    color: red;
+    font-size: 12px;
+}
+
 .getInTouch-form textarea {
     width: 100%;
     height: 300px;
@@ -1153,7 +1158,7 @@ button {
 }
 
 .textFuter {
-    padding: 105px auto 95px auto;
+    margin-top: 20px;
     display: block;
     text-align: center;
 }

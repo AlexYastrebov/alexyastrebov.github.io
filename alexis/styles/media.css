@@ -19,6 +19,13 @@
     .workStepItem .content {
         position: static;
         width: 100%;
+        min-height: auto;
+    }
+    .workStepItemCount .workStepItem {
+        margin-bottom: 30px;
+    }
+    .OurTeamText {
+        margin-bottom: 62px;
     }
     .aboutBennet {
         padding: 115px 70px 80px 70px;
@@ -86,10 +93,6 @@
         padding: 15px 50px;
         font-size: 17px;
     }
-    .ourblogimg3 .text005 {
-        left: 50px;
-        top: 154px;
-    }
 }   
 
 
@@ -99,6 +102,25 @@
 @media (max-width: 991px) {
     .main_menu {
         display: none;
+    }
+    .top_line {
+        padding: 15px 0;
+    }
+    .hamburger {
+        display: block;
+        width: 40px;
+        float: right;
+    }
+    .hamburger span {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #222;
+        margin-bottom: 5px;
+        border-radius: 3px;
+    }
+    .hamburger span:last-child {
+        margin-bottom: 0;
     }
     .ourFocusBlock {
         margin-bottom: 20px;
@@ -183,8 +205,9 @@
     .pricingTable {
         padding-bottom: 50px;
     }
-    .testimonialsPhoto {
+    .testimonials .testimonialsPhoto {
         transform: translateX(0%);
+        right: 0;
     }
     .testimonialsDots {
         transform: translateX(-150%);
@@ -207,10 +230,6 @@
     }
     .ourblogimg3 .text04 {
         padding: 0 35px 25px 35px;
-    }
-    .ourblogimg3 .text005 {
-        left: 275px;
-        top: 103px;
     }
     .sectionFooterEnd {
         padding-top: 75px;
@@ -268,6 +287,7 @@
         position: relative;
         
     }
+    
     .OurTeamTitle h2 {
         margin-top: 10px;
     }
@@ -343,10 +363,6 @@
     .ourblogimg3 .text04 {
         padding: 0 35px 25px 35px;
     }
-    .ourblogimg3 .text005 {
-        left: 96px;
-        top: 150px;
-    }
     .ourBlog {
         padding-bottom: 75px;
     }
@@ -402,7 +418,6 @@
     }
     .portFolioTitle .sectionTitle::before {
         bottom: -40px;
-        transform: translateX(-130%);
     }
     .testimonials h3 {
         font-size: 18px;
@@ -500,7 +515,6 @@
     .ourblogimg3 .text005 {
         display: block;
         text-align: left;
-        margin: 50px -60px;
     }
     .workStepItem .p01:after {
         display: none;
