@@ -1,0 +1,63 @@
+@media (max-width: 1199px) {
+    .service {
+        display: block;
+        margin: 0 auto;
+    }
+    .services_item {
+        display: block;
+        margin: 0 auto;
+    }
+    .button_service {
+        margin: 17px auto;
+    }
+    .services_item {
+        margin: 25px auto;
+    }
+}          
+@media (max-width: 991px) {
+    .page_title p {
+        margin: 0 20px;
+    }
+    .head_line {
+        padding: 17px 17px;
+    }
+}        
+@media (max-width: 575px) {
+    .page_title h1 {
+        font-size: 36px;
+        margin: 122px 0 12px 0;
+    }
+    .head_line h2 {
+        font-size: 12px;
+        margin: 0 auto;
+        transform: translateX(25%);
+    }
+    .head_line img {
+        position: absolute;
+        left: 0;
+    }
+    .menu_button {
+        width: 35px;
+    }
+    .text_services {
+        font-size: 24px;
+        margin: 25px auto;
+    }
+    .services {
+        padding: 10px;
+    }
+    .text_sub {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .text_sub1 {
+        font-size: 15px;
+        padding: 0 30px;
+    }
+    .second_button {
+        font-size: 9px;
+    }
+    .first_button {
+        margin: 80px auto 120px auto;
+    }
+}
