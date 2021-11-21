@@ -532,4 +532,47 @@
     .textFuter {
         margin-top: 15px;
     }
-}   
+    .results img {
+        margin-bottom: 30px;
+    }
+    .results .img1 {
+        margin-top: 30px;
+    }
+    .testimonialsText h3 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .testimonials h3 {
+        padding: 0;
+    }
+    .testimonialsDots {
+        justify-content: end;
+        transform: translateX(-50%);
+    }
+    .testimonials {
+        padding-bottom: 75px;
+    }
+    .exploreOurAwesomeness p {
+        margin-bottom: 95px;
+    }
+    .exploreOurAwesomeness h3 {
+        margin-top: 75px;
+    }
+    .OurTeam {
+        margin-top: 30px;
+    }
+    .input-group {
+        margin-bottom: 100px;
+    }
+    .ourblogimg3 .text005 {
+        text-align: right;
+       bottom: 0;
+       padding-top: 10px;
+    }
+    .ourblogimg3 .text04 {
+        padding: 0 0 0 35px;
+    }
+    .pricingTable h3 {
+        margin: 40px auto 30px auto;
+    }
+}

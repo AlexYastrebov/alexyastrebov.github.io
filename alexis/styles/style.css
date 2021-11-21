@@ -221,9 +221,6 @@ button {
     margin-bottom: 150px;
     color: white;
 }
-/* спросить про маджины у всех элементов маджины схлопываются
-доделать эффекты фона картинки */
-
 .portFolio {
     text-align: center;
 }
@@ -468,7 +465,7 @@ button {
 
 
 .results {
-    background: url(/images/Layer\ 24.jpg);
+    background: url(../images/Layer\ 24.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -807,8 +804,6 @@ button {
     border-radius: 50%;
 }
 
-/* су%ка.... */
-
 .imgkrug {
     width: 4%;
     display: flex;
@@ -843,7 +838,6 @@ button {
     transform: translateX(-50%);
     bottom: -35px;
 }
-/* как сократить еще клас выше? */
 
 .whySelectUs .selectUsImg {
     display: inline-block;
@@ -1099,13 +1093,6 @@ button {
 .button-wrapper {
     width: 100%;
 }
-
-/* .form-control {
-    border-radius: 0;
-    background-color: rgba(95, 90, 90, 0.52);
-    justify-content: center;
-    text-align: center;
-} */
 
 .form-control1 {
     text-align: center;
