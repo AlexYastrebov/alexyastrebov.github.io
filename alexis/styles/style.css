@@ -35,6 +35,12 @@ header {
     color: #272727;
     display: block;
     padding: 10px 9px;
+    transition: 0.1s;
+}
+.main_menu a:hover {
+    /* box-shadow: 1px 1px 1px 1px rgb(238, 237, 238); */
+    font-weight: 600;
+    color: #fc5f45;
 }
 .hamburger {
     display: none;
@@ -47,7 +53,6 @@ h1 {
     max-width: 820px;
     margin: 175px auto 55px auto;
 }
-
 button {
     width: 180px;
     height: 50px;
@@ -61,11 +66,21 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 25px;
+    transition: 0.5s;
+}
+button:hover {
+    box-shadow: 3px 3px 5px rgb(238, 237, 238);
+    transform: translateX(1%);
+    background-color: #f84424;
 }
 .benefitsItem {
     text-align: center;
     font-weight: 500;
     font-size: 18px;
+    transition: 1s;
+}
+.benefitsItem:hover {
+    font-size: 19px;
 }
 .benefitsItem img {
     margin-bottom: 33px;
@@ -175,6 +190,11 @@ button {
     border-bottom: 3px solid #fc5f45;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     height: 100%;
+    transition: 1s;
+}
+.ourFocusBlock:hover {
+    box-shadow: 10px 10px 20px rgba(39, 27, 27, 0.644);
+    transform: translateX(0.2%);
 }
 .ourFocusBlock img {
     margin-bottom: 28px;
@@ -210,6 +230,14 @@ button {
     text-align: center;
     background-image: url(../images/exploreOurAwesomeness.jpg);
     background-position: center;
+}
+.exploreOurAwesomeness img {
+    width: 4%;
+    transition: 1s;
+}
+.exploreOurAwesomeness img:hover {
+    width: 5%;
+    transform: translateX(1%);
 }
 .exploreOurAwesomeness h3 {
     margin-top: 150px;
@@ -248,7 +276,10 @@ button {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     cursor: pointer;
 }
-/* разобраться с ховерами */
+.projectItem:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
 
 .projectItem img {
     width: 100%;
@@ -368,11 +399,19 @@ button {
 .Michael {
     border-bottom: 3px solid #d7aca5;
 }
+.Michael:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
 .Michael .workerImgWrapper:after {
     background-image: linear-gradient(#cbcbcb, #d7aca5);
 }
 .David {
     border-bottom: 3px solid #a1cabb;  
+}
+.David:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
 }
 .David:after {
 	background-image: linear-gradient(#cbcbcb, #a1cabb);
@@ -380,11 +419,19 @@ button {
 .Anna {
     border-bottom: 3px solid#843cdd;
 }
+.Anna:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
 .Anna:after {
 	background-image: linear-gradient(#cbcbcb, #843cdd);
 }
 .Jason {
     border-bottom: 3px solid #e69123;
+}
+.Jason:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
 }
 .Jason:after {
 	background-image: linear-gradient(#cbcbcb, #e69123);
@@ -457,8 +504,12 @@ button {
     font-size: 15px;
     color: #616161;
     padding: 8px 0;
+    transition: 0.3s;
 }
-
+.aboutBennetSocial a:hover {
+    color: #f53838;
+    font-weight: 600;
+}
 .aboutBennetSocial a img {
     margin-right: 6px;
 }
@@ -478,13 +529,22 @@ button {
 .results img {
     margin-bottom: 130px;
 }
+.results img:hover {
+    transform: translateX(2%);
+}
 .results h3 {
     color: white;
 }
+.results h3:hover {
+    transform: translateX(2%);
+}
 .results p {
     color: white;
+    transition: 0.3s;
 }
-
+.results p:hover {
+    transform: translateX(2%);
+}
 .workSteps .sectionTitle:before {
     content: '05'
 }
@@ -514,6 +574,22 @@ button {
     position: absolute;
     top: -50px;
     display: block;
+}
+.workStepItem .content01:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
+.workStepItem .content02:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
+.workStepItem .content03:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
+}
+.workStepItem .content04:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
 }
 .workStepItem h3 {
     display: block;
@@ -642,6 +718,10 @@ button {
     overflow: hidden;
     border-top: 3px solid #38c695;
     position: relative;
+}
+.pricingTableItem:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    transform: translateX(0.3%);
 }
 
 .pricingTableItem.pricingTableItem1 {
@@ -787,7 +867,10 @@ button {
     justify-content: center;
     align-items: center;
 }
-
+.testimonialsDots li:hover {
+    transform: translateX(0.3%);
+    border: 5px solid #fff;
+}
 .testimonialsDots li.active {
     border: 1px solid red;
 }
@@ -850,7 +933,9 @@ button {
     font-weight: 600;
     font-size: 18px;
 }
-
+.whySelectUs .whySelectUsText:hover {
+    font-weight: 700;
+}
 .whySelectUs .selectUsTextBlock {
     margin: 0 40px 75px 30px;
     font-size: 15px;
@@ -862,6 +947,12 @@ button {
 
 .button.button02.button022 {
     margin: 155px auto 150px auto;
+    transition: 0.3s;
+}
+.button.button02.button022:hover {
+    box-shadow: 3px 3px 5px rgb(29, 29, 29);
+    transform: translateX(1%);
+    background-color: #f84424;
 }
 
 .ourBlog {
@@ -880,6 +971,10 @@ button {
 .ourblogimg1 img {
     max-width: 100%;
 }
+.ourblogimg1:hover {
+    box-shadow: 3px 3px 5px rgb(29, 29, 29);
+    transform: translateX(1%);
+}
 
 
 
@@ -890,7 +985,10 @@ button {
     margin-bottom: 20px;
     position: relative;
 }
-/* в процентах нормально? */
+.ourblogimg2:hover {
+    box-shadow: 3px 3px 5px rgb(29, 29, 29);
+    transform: translateX(1%);
+}
 
 .ourblogimg2.border1 {
     border-bottom: 3px solid #38c695;
@@ -909,7 +1007,10 @@ button {
     position: relative;
     border-bottom: 3px solid #fc5f45;
 }
-
+.ourblogimg3:hover {
+    box-shadow: 3px 3px 5px rgb(29, 29, 29);
+    transform: translateX(1%);
+}
 .ourblogimg3 .text001 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1128,6 +1229,19 @@ button {
     padding: 60px 40px 35px 0;
     display: block;
     text-align: start;
+    transition: 0.3s;
+}
+.textFuter1:hover {
+    color: #f73b3b;
+    transform: translateX(1%);
+}
+.textFuter2:hover {
+    color: #f73b3b;
+    transform: translateX(1%);
+}
+.textFuter3:hover {
+    color: #f73b3b;
+    transform: translateX(1%);
 }
 .textFuter01 {
     font-family: 'Poppins', sans-serif;
@@ -1176,6 +1290,11 @@ button {
     justify-content: center;
     text-align: start;
     padding: 0 3px 0 3px;
+    transition: 0.3s;
+}
+.textFuter03:hover {
+    box-shadow: 2px 2px 2px #fff;
+    transform: translateX(3%);
 }
 
 .footerEnd {
