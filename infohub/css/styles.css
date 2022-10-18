@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-image: url(/images/maserati-gran-turismo-1649119_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.header__logo {
+    background-color: rgb(154, 0, 0);
+    top: 50px;
+    left: 100px;
+    position: absolute;
+    padding: 10px;
+    color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+.header__texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__text1 {
+    font-size: 72px;
+}
+.header__text2 {
+    font-size: 32px;
+}
+.header__slogan {
+    top: 160px;
+    left: 130px;
+    position: absolute;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 24px;
+}
+.content {
+    top: 20px;
+    right: 100px;
+    position: absolute;
+    padding: 0px 0px 0px 100px;
+}
+.calk {
+    background-color: rgba(217, 217, 217, 0.7);
+    width: 350px;
+    padding: 30px;
+    border-radius: 0.25rem;
+}
+.calk__text {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.calk__label {
+    display: block;
+}
+.calk__sumBtn, .calk__sendBtn, .header__printBtnOk {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(133, 133, 133);
+    background-color: rgb(244, 140, 14);
+}
+.calk__sendBtn {
+    display: block;
+}
+input {
+    border-radius: 0.25rem;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(133, 133, 133);
+}
+.klient {
+    background-color: rgba(217, 217, 217, 0.7);
+    width: 330px;
+    transition: 3s;
+    padding: 20px;
+    border-radius: 0.25rem;
+    top: 230px;
+    left: 100px;
+    position: absolute;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.klient__text {
+    font-size: 20px;
+    color: rgb(7, 12, 97);
+}
+.klient__printBtn, .klient__deliteBtn, .header__save {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(133, 133, 133);
+    background-color: rgb(48, 144, 218);
+}
+.klient__deliteBtn {
+    background-color: rgb(196, 36, 15);
+}
+.header__print {
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 10vh;
+    margin: 250px 400px;
+    background-color: rgb(248, 248, 248);
+    padding: 30px 45px;
+}
+.header__printText{
+    display: block;
+    text-align: center;
+}
+.header__printBtnOk {
+    background-color: rgb(189, 189, 189);
+    width: 150px;
+}

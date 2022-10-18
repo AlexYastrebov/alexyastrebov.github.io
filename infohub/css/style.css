@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+    }
+    &__text {
+    }
+    &__text--big {
+    }
+    &__text--small {
+    }
+
+/* .calk {
+    display: flex;
+    flex-direction: column;
+    &__maslo {
+    }
+
+    &__text {
+    }
+
+    &__filtr {
+    }
+
+    &__remen {
+    }
+
+    &__stupica {
+    }
+
+    &__mojka {
+    }
+
+    &__polirovka {
+    }
+
+    &__dostavka {
+    }
+
+    &__summaBtn {
+    }
+} */

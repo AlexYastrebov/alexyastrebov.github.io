@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <div class="header__texts">
+                <h1 class="header__text1">VIP</h1>
+                <span class="header__text2">auto repair shop</span>
+            </div>
+        </div>
+        <span class="header__slogan">Всё, что мы запороли,<p>должно остаться между нами</p></span>
+        
+        <div class="content">
+            
+            <form class="calk">
+                
+                <div>
+                    <input class="calk__number" type="text">
+                    <span class="calk__text">Номер заказа</span>    
+                </div>
+                <div>
+                    <input class="calk__family" type="text">
+                    <span class="calk__text">Фамилия</span>
+                </div> 
+                <div>   
+                    <input class="calk__name" type="text">
+                    <span class="calk__text">Имя</span>
+                </div>
+                <div>
+                    <input class="calk__auto" type="text">
+                    <span class="calk__text">Марка машины</span>
+                </div>
+                <div>
+                    <input class="calk__date" type="date">
+                    <span class="calk__text">дата приема</span>
+                </div>
+                <div>
+                    <input class="calk__maslo" type="text">
+                    <span class="calk__text">Замена масла</span>
+                </div>
+                <div>
+                    <input class="calk__filtr" type="text">
+                    <span class="calk__text">Замена фильтров</span>
+                </div>
+                <div>
+                    <input class="calk__remen" type="text">
+                    <span class="calk__text">Замена ремней</span>
+                </div>
+                <div>
+                    <input class="calk__stupica" type="text">
+                    <span class="calk__text">Замена ступиц</span>
+                </div>
+                <label class="calk__label">
+                    <input value="mojka" name="clining" class="calk__mojka" type="radio">
+                    <span class="calk__text">Мойка</span>
+                </label>
+                <label class="calk__label">
+                    <input value="polirovka" name="clining" class="calk__polirovka" type="radio">
+                    <span class="calk__text">Полировка</span>
+                </label>
+                <label class="calk__label">
+                    <input class="calk__dostavka" type="checkbox">
+                    <span class="calk__text">Доставка клиенту</span>
+                </label>        
+
+                <button class="calk__sumBtn">Сумма к оплате </button><span class="oplata">_</span>
+
+                <button class="calk__sendBtn">Отправить в карту клиента</button>
+
+            </form>
+        </div>
+        <div class="klient">
+            <div>КАРТА КЛИЕНТА</div>
+            <div data-category="adidas" class="klient__text">Дата заказа <span class="klient__date">_</span></div>
+            <div class="klient__text">Номер клиента <span class="klient__number">_</span></div>
+            <div class="klient__text">Фамилия клиента <span class="klient__family">_</span></div>
+            <div class="klient__text">Имя клиента <span class="klient__name">_</span></div>
+            <div class="klient__text">Марка автомобиля <span class="klient__auto">_</span></div>
+            <div class="klient__text">Оплата составляет <span class="oplata">_</span></div>
+            <button class="klient__printBtn">Распечатать заказ</button>
+            <button class="klient__deliteBtn">Удалить</button>
+            <button class="header__save">ок</button>
+        </div>
+        <div class="header__print">
+            <span class="header__printText">Необходимо подключить принтер!</span>
+            <button class="header__printBtnOk">ок</button>
+        </div>
+    </header>
+
+    <script src="sgript.js"></script>
+
+</body>
+</html>
