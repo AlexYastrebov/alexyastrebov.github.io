@@ -1,0 +1,62 @@
+
+.test {
+    text-align: center;
+}
+.test__title {
+    font-size: 26px;
+    color: rgb(8, 8, 79);
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(8, 8, 79);
+    padding: 10px 0px;
+    background-color: rgb(210, 245, 13);
+}
+.test__title-color {
+    color: rgb(249, 21, 21);
+}
+
+.test__answer-text {
+    display: inline;
+    padding-top: 5px;
+    /* margin-bottom: 20px; почему не работает? */
+}
+
+.test__main {
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+.test__main.test__html {
+    background-color: aquamarine;
+}
+.test__main.test__css {
+    background-color: rgb(146, 154, 246);
+}
+.test__main.test__js {
+    background-color: rgb(246, 102, 246);
+}
+.test__main-title {
+}
+.test__html-question {
+    display: block;
+    margin: 20px 0px 5px 0px;
+    font-size: 18px;
+    color: rgb(19, 19, 20);
+}
+
+.test__btn {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    border-color: rgb(176, 60, 60);
+    background-color: rgb(176, 60, 60);
+    color: aliceblue;
+    padding: 5px;
+    transition: 0.2s;
+}
+.test__btn:hover {
+    box-shadow: 2px 2px 2px #fff;
+}
+.test__res-html {
+    
+}
