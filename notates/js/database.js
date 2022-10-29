@@ -1,0 +1,1 @@
+let dbIcons = ['icon1.svg', 'icon2.svg', 'icon3.svg', 'icon4.svg', 'icon5.svg'];

@@ -9,4 +9,8 @@ let notates = {
     parent: document.getElementsByClassName('notates')[0],
 
 }
+let add = document.getElementsByClassName('add')[0];
+let addImg = document.getElementsByClassName('add__img');
+
+
 
