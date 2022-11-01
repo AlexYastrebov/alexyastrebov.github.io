@@ -8,111 +8,112 @@
     <title>Тесты</title>
 </head>
 <body>
-    <div class="test">
-        <h1 class="test__title">Вашему вниманию представлены тесты по <span class="test__title-color">HTML, CSS, JavaScript</span> для новичков</h1>
+    <div class="content">
+        
+            <div class="header">
+                <h1 class="header__title">Вашему вниманию представлены тесты по <p class="test__title-color">HTML, CSS, JavaScript</p> для новичков</h1>
+            </div>
             
-            <div class="test__main test__html">
-            </div>
-      
+            <div class="categories">     
+                <div class="category categoryHTML">
+                    <h2 class="category__title">Тесты по HTML для новичков</h2>
+                    <img class="category__logo" src="/images/logos_html-5.svg" alt="logos">
+                </div>
 
-            <div class="test__main test__css">
-                <h2 class="test__main-title">Тесты по CSS для новичков</h2>
-                    <span class="test__html-question">Свойство стиля position, block?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-11" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-11" type="radio"></p>
-                    
-                    <span class="test__html-question">Стиль padding отвечает за внешний отступ от элемента??</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-12" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-12" type="radio"></p>
+                <div class="category categoryCSS">
+                    <h2 class="category__title">Тесты по CSS для новичков</h2>
+                    <img class="category__logo" src="/images/logos_css-3.svg" alt="logos">
+                </div>
 
-                    <span class="test__html-question">Стиль opacity отвечает за прозрачность?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-13" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-13" type="radio"></p>
+                <div class="category categoryJS">
+                    <h2 class="category__title">Тесты по JS для новичков</h2> 
+                    <img class="category__logo" src="/images/logos-js2.svg" alt="logo js">
+                </div>
 
-                    <span class="test__html-question">CSS расшифровывается как Common Style Sheets?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-14" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-14" type="radio"></p>
-
-                    <span class="test__html-question">Синтаксически корректное CSS правило: div [font-size:2em]?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-15" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-15" type="radio"></p>
-
-                    <span class="test__html-question">Свойство позволяющее устанавливать размер шрифта называется font-weight?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-16" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-16" type="radio"></p>
-
-                    <span class="test__html-question">Свойства border-radius и border это одно и тоже?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-17" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-17" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли использовать position absolute без position relative?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-18" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-18" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли в свойстве background задать несколько значений?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-19" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-19" type="radio"></p>
-
-                    <span class="test__html-question">Файл css в проекте обязательно ли подключать последним?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--css" value="yes" name="answer-20" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--css" value="no" name="answer-20" type="radio"></p>
-
-                    <button class="test__btn test__btn-css">Получить результат</button>
-                    <p class="test__answer-text">Правильных ответов <span class="test__res-css">10 </span>из 10</p>
-            </div>
-
-            <div class="test__main test__js">
-                <h2 class="test__main-title">Тесты по JS для новичков</h2>
-                    <span class="test__html-question">HTML расшифровывается как HyperText Marketing Language?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-21" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-21" type="radio"></p>
-                    
-                    <span class="test__html-question">HTML состоит только из Тегов?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-22" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-22" type="radio"></p>
-
-                    <span class="test__html-question">Существуют ли непарные Теги</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-23" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-23" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли использовать несколько видов списков при созДании веб-страницы?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-24" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-24" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли писать комментарии в HTML-коде?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-25" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-25" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли присваивать значения не всем атрибутам тега?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-26" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-26" type="radio"></p>
-
-                    <span class="test__html-question">Можно ли в коде вставить ссылку на другую страницу?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-27" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-27" type="radio"></p>
-
-                    <span class="test__html-question">Нужно ли пользоваться отступами во время написания коДа?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-28" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-28" type="radio"></p>
-
-                    <span class="test__html-question">Обязательно ли использовать альтернативный текст (атрибут alt тега img) для изображений?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-29" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-29" type="radio"></p>
-
-                    <span class="test__html-question">Гиперссылка может быть только текстовой?</span>
-                    <p class="test__answer-text">Да<input class="test__answer-input--js" value="yes" name="answer-30" type="radio"></p>
-                    <p class="test__answer-text">Нет<input class="test__answer-input--js" value="no" name="answer-30" type="radio"></p>
-
-                    <button class="test__btn test__btn-js">Получить результат</button>
-                    <p class="test__answer-text">Правильных ответов <span class="test__res-js">10 </span>из 10</p>
-            </div>
+            </div> 
 
     </div>
 
+    <div class="html">
 
+        <div class="test__main test__html">
+
+        <div class="ask__container ask__container-html">
+            <img class="test__logo" src="/images/logos_html-5.svg" alt="logo html">
+            <!-- вопросы подгружаются автоматически -->
+            
+
+        </div>
+
+        <div class="result resultHTML"> 
+            <div class="test__line"></div>
+            <button class="result__btn result__btn-html">Получить результат</button>
+            <p class="result__text">Правильных ответов <span class="result__num"> 10 </span>из 10</p>
+        </div>
+
+        </div>
+    </div>
+
+          
+
+    <div class="css">
+
+        <div class="test__main test__css">
+
+        <div class="ask__container ask__container-css">
+            <img class="test__logo" src="/images/logos_html-5.svg" alt="logo html">
+            <!-- вопросы подгружаются автоматически -->
+            
+
+        </div>
+
+        <div class="result resultCSS"> 
+            <div class="test__line"></div>
+            <button class="result__btn result__btn-css">Получить результат</button>
+            <p class="result__text">Правильных ответов <span class="result__num"> 10 </span>из 10</p>
+        </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="js">
+
+        <div class="test__main test__js">
+
+            <div class="ask__container ask__container-js">
+            <img class="test__logo" src="/images/logos_html-5.svg" alt="logo html">
+            <!-- вопросы подгружаются автоматически -->
+            
+
+        </div>
+
+        <div class="result resultJS"> 
+            <div class="test__line"></div>
+            <button class="result__btn result__btn-js">Получить результат</button>
+            <p class="result__text">Правильных ответов <span class="result__num">10</span>из 10</p>
+        </div>
+
+        </div>
+    </div>
 
     <script src="/js/variables.js"></script>
     <script src="/js/database.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
+
+
+<!-- <div class="test">
+                <h3 class="test__title">HTML расшифровывается как HyperText Marketing Language?</h3>
+                <label class="test__label">
+                    <span class="test__text">Да</span> 
+                    <input name="test__2" type="radio" class="test__select">
+                </label>
+                <label class="test__label">
+                    <span class="test__text">Нет</span>
+                    <input name="test__2" type="radio" class="test__select">
+                </label>
+            </div> -->
